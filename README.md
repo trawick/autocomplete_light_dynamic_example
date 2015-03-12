@@ -1,7 +1,7 @@
 # autocomplete_light_dynamic_example
 Example of enabling and disabling autocompletion for a text input dynamically based on other form field values
 
-Most commonly, autocompletion is defined for a particular form field in the Django form definition.  I had a requirement to set the value of a field to a sepcific value, or use autocompletion, or allow freeform input based on other factors.  In this example, the "other factors" are radio button settings.
+Most commonly, autocompletion is defined for a particular form field in the Django form definition.  I had a requirement to set the value of a field to a specific value, or use autocompletion, or allow freeform input based on other factors.  In this example, the "other factors" are radio button settings.
 
 The example would be better if the form was created with a Django form definition instead of my simple, raw HTML. Perhaps I will fix that in the future.
 
