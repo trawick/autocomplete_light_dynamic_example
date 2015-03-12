@@ -9,8 +9,9 @@ In order to test the example:
 
 1. create a new virtualenv and activate it
 2. ```pip install -r requirements.txt```
-3. ```python manage.py runserver```
-4. load the form from http://127.0.0.1:8000
+3. ```python manage.py migrate```
+4. ```python manage.py runserver```
+5. load the form from http://127.0.0.1:8000
 
 When autocompletion is enabled, the initial characters you type should match one of the names in  ```example/autocomplete_light_registry.py```.
 
